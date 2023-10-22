@@ -63,7 +63,7 @@ const services = [
     icon: custom,
   },
   {
-    title: "Jumpstart your Selfimprovement Journey",
+    title: "Jumpstart your self improvement Journey",
     icon: chart,
   },
 ];

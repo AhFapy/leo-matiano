@@ -42,8 +42,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
+          <img src="/logo.jpg" alt='logo' className='w-[3rem] h-[3rem] rounded-full object-contain border-white border-[2px] hover:opacity-50 transition-all ease-in-out' />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Leo Matiano &nbsp;
+          &nbsp;| &nbsp; Leo Matiano
           </p>
         </Link>
 
