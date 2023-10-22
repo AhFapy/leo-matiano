@@ -1,11 +1,11 @@
-import { useState, useRef } from "react"
-import { motion } from "framer-motion"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { useState, useRef } from "react";
+import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import {styles} from "../style"
-import { SectionWrapper } from "../hoc"
-import { slideIn } from "../utils/motion"
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
+import { styles } from "../style";
+import { SectionWrapper } from "../hoc";
+import { slideIn } from "../utils/motion";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Contact = () => {
   const formRef = useRef();
@@ -13,17 +13,17 @@ const Contact = () => {
     name: "",
     email: "",
     message: "",
-  })
+  });
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {};
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {};
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex-gap-10 overflow-hidden">
       <motion.div
-      variants={slideIn("left", "tween", 0.2, 1)}
-      className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>
           Get in touch
@@ -31,13 +31,13 @@ const Contact = () => {
         </p>
         <div className="bg-none flex flex-row items-center">
           <span className="sm:text-[6vw] lg:text-[3vw]">
-          <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faEnvelope} />
           </span>
-          <p className="ml-[1rem]">ahelfa123@gmail.com</p>
+          <p className="ml-[1rem]">leo.matiano@gntl-ai.com</p>
         </div>
       </motion.div>
     </div>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Contact, "contact")
+export default SectionWrapper(Contact, "contact");
