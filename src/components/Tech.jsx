@@ -23,14 +23,7 @@ const Tech = () => {
               What we'll do. Together 🛠️
               <br />
               <div className="w-full flex justify-center mt-[2rem]">
-                <iframe
-                  className="w-[75vw] h-[75vh]"
-                  src="https://youtu.be/bN_CGGWe4bo?si=7GbNLObLjhCA_9Ei"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>{" "}
+              <iframe className="w-[75vw] h-[75vh]"src="https://www.youtube.com/embed/bN_CGGWe4bo?si=Lp_1QO0lv14hckzt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{" "}
               </div>
             </h1>
           </div>
