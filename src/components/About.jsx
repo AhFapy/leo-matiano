@@ -87,7 +87,7 @@ const About = () => {
           <br />
           <br />
           <br />
-          Two Weeks. <span className="text-[#3d85c6] font-bold">
+          Completely <span className="text-[#3d85c6] font-bold">
             Free.
           </span>{" "}
           <br />
